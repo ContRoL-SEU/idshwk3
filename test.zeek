@@ -22,7 +22,7 @@ event zeek_done()
 	{
 		if(|temp[ip]|>=3)
 		{
-			print(addr_to_uri(ip) + "is a proxy.");
+			print(addr_to_uri(ip) + " is a proxy");
 		}
 	}
 }
